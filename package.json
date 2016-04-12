@@ -9,6 +9,7 @@
   "author": "ET Lin and Ajay",
   "license": "ISC",
   "dependencies": {
+    "bower": "^1.7.9",
     "express": "^4.13.4"
   },
   "devDependencies": {}
