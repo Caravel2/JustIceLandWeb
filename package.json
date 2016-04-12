@@ -1,0 +1,15 @@
+{
+  "name": "Just_Ice_land",
+  "version": "1.0.0",
+  "description": "This is the fun project for learning google map api version 2.  Just Ice Land is the game about the story of justice of island. Player can go around in this land and figure out what happened in this mysterious land.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ET Lin and Ajay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {}
+}
