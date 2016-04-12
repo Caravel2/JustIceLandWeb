@@ -7,10 +7,12 @@ var port = 5100;
 
 app.set('port',process.env.PROT || port);
 app.set('views', __dirname + '/views');
+app.use(express.static( __dirname + '/views'));
 app.use(express.static( __dirname + '/public'));
 
+
 app.use('/',function(req, res){
-  res.send(html);
+  res.send("index.html");
 }); 
 
 app.listen(port, host);
