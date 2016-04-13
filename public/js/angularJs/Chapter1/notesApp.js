@@ -2,8 +2,6 @@
 (function(angular) {
  
 angular.module('notesApp',[])
-
-                    
 .controller('ListCtrl',[function(){
   var self = this;
   self.items = [

@@ -1,17 +1,19 @@
-<!DOCTYPE html ng-app="notesApp">
+<!DOCTYPE html>
+<html ng-app="notesApp">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <script src="/js/kit/angular.min.js"></script>
+            <!--載入google map-->
+        <script type="text/javascript"
+                src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBkzBut_maXdkAsr_SpLlBtuKdEoVT_em0">
+        </script>
+        <script src="/js/angularJs/Chapter1/notesApp.js"></script>
     </head>
-        <!--載入google map-->
-    <script type="text/javascript"
-            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBkzBut_maXdkAsr_SpLlBtuKdEoVT_em0">
-    </script>
-    <script src="/js/angular/Chapter1/notesApp.js"></script>
+
     <body ng-controller="ListCtrl as ctrl">
         <p>Hello world! This is HTML5 Boilerplate. This file is in views</p>
         <span>{{ctrl.items}}</span>
