@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html ng-app="notesApp">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,9 @@
     <script type="text/javascript"
             src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBkzBut_maXdkAsr_SpLlBtuKdEoVT_em0">
     </script>
-    <body>
+    <script src="/js/angular/Chapter1/notesApp.js"></script>
+    <body ng-controller="ListCtrl as ctrl">
         <p>Hello world! This is HTML5 Boilerplate. This file is in views</p>
+        <span>{{ctrl.items}}</span>
     </body>
 </html>

@@ -17,5 +17,10 @@
     "karma-chrome-launcher": "^0.2.3",
     "karma-jasmine": "^0.3.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "grunt-bower-task": "^0.4.0",
+    "grunt-bowercopy": "^1.2.4",
+    "karma-requirejs": "^0.2.6",
+    "requirejs": "^2.2.0"
+  }
 }
